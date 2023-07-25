@@ -32,6 +32,60 @@ Successful Hero Squad games require players to manage their team effectively, in
 ## Cooperative or Competitive Gameplay: 
 Some Hero Squad games may offer cooperative gameplay options, allowing players to team up with friends or other players to tackle missions together. Alternatively, the game may feature competitive elements, such as PvP battles or leaderboards, where players can compete against each other to demonstrate the strength of their Hero Squads.
 
+## BDD (Behavior-Driven Development)
+
+### Feature: Recruit Heroes
+
+#### Scenario: 
+Successfully recruit a hero into the squad
+Given the player is logged in and on the recruit page
+When the player selects a hero from the available options
+Then the hero is added to the squad roster
+And the player receives a success message confirming the hero recruitment
+
+#### Scenario: 
+Cannot recruit the same hero twice
+Given the player is logged in and on the recruit page
+And the hero is already in the squad roster
+When the player tries to recruit the same hero again
+Then the player receives an error message indicating that the hero is already recruited
+
+#### Feature: Squad Formation
+
+Scenario: Assign heroes to the squad
+Given the player is logged in and on the squad formation page
+When the player selects heroes from the available roster
+And assigns them to the squad slots
+Then the heroes are successfully assigned to the squad
+And the player can see the updated squad formation
+
+#### Scenario: 
+Squad size restriction
+Given the player is logged in and on the squad formation page
+And the squad has reached the maximum size limit
+When the player tries to assign another hero to the squad
+Then the player receives an error message indicating that the squad is already full
+
+### Feature: Missions and Challenges
+
+#### Scenario: 
+Complete a mission successfully
+Given the player is on the mission page
+And the squad is prepared for the mission
+When the player initiates the mission
+Then the player receives mission details and objectives
+And the squad engages in battles and completes the objectives
+And the player receives rewards upon successful completion
+
+#### Scenario: 
+Fail a mission
+Given the player is on the mission page
+And the squad is not adequately prepared for the mission
+When the player initiates the mission
+Then the player receives mission details and objectives
+And the squad struggles in battles and fails to complete the objectives
+And the player receives a failure message
+
 
 
 ###### Copyright (c) 2023 **Josephine Kemuma**
