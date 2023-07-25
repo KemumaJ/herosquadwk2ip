@@ -25,3 +25,13 @@ Hero Squad games often incorporate turn-based combat mechanics. Players engage i
 
 ## Progression and Upgrades: 
 As players advance through the game, they can earn experience points, currency, or other rewards. These can be used to level up heroes, unlock new abilities, acquire equipment or upgrades, and enhance the overall power and effectiveness of the Hero Squad.
+
+## Team Management and Strategy: 
+Successful Hero Squad games require players to manage their team effectively, including optimizing hero selection, upgrading abilities, managing resources, and devising strategies to overcome different challenges. Players must consider the strengths and weaknesses of each hero and adapt their strategies accordingly.
+
+## Cooperative or Competitive Gameplay: 
+Some Hero Squad games may offer cooperative gameplay options, allowing players to team up with friends or other players to tackle missions together. Alternatively, the game may feature competitive elements, such as PvP battles or leaderboards, where players can compete against each other to demonstrate the strength of their Hero Squads.
+
+
+
+# Copyright (c) 2023 **Josephine Kemuma**
