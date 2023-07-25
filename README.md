@@ -4,5 +4,4 @@
 
 ## Description:  Week two Java Spark IP about the Hero Squad Game
 
-## What is a squad game? A hero squad game is a tactical shooter based around a squad
-## gameplay designed to encourage teamwork and communication. 
+## What is a squad game? A hero squad game is a tactical shooter based around a squad gameplay designed to encourage teamwork and communication. 
