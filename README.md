@@ -34,4 +34,4 @@ Some Hero Squad games may offer cooperative gameplay options, allowing players t
 
 
 
-# Copyright (c) 2023 **Josephine Kemuma**
+###### Copyright (c) 2023 **Josephine Kemuma**
